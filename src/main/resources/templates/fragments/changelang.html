@@ -26,13 +26,13 @@
 </select></div>
 
 <div class="actions-orders">
-	<a th:href="@{http://localhost:6969/orders/new}">
+	<a th:href="~{/orders/new}">
 		<button type="button" class="btn btn-outline-success" th:text="#{addOrder}"></button>
 	</a>
-	<a th:href="@{http://localhost:6969/products}">
+	<a th:href="~{/products}">
 		<button type="button" class="btn btn-outline-success" th:text="#{shop}"></button>
 	</a>
-    	<a th:href="@{http://localhost:6969/orders}">
+    	<a th:href="~{/orders}">
 		<button type="button" class="btn btn-outline-success" th:text="#{order}"></button>
 	</a>
 
