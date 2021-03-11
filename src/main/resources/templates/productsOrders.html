@@ -28,7 +28,7 @@
                 <th th:text="*{pro.order.status}" th:if="*{pro.order.status == 'En Entrega'}" style="color: orange;">
                 <th>
                     <div class="actions-orderProducts">
-                        <a th:href="@{http://localhost:6969/products/add}">
+                        <a th:href="@{/products/add}">
                             <button type="button" class="btn btn-outline-success" th:text="#{addProduct}"></button>
                         </a>
                     </div>
